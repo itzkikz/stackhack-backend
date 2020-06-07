@@ -7,7 +7,7 @@ const cors = require("cors");
 const eventRoutes = require("./Routes/event");
 
 const app = express();
-const port = 3001;
+const port = 4001;
 // db connection
 mongoose.set("useNewUrlParser", true);
 mongoose.set("useCreateIndex", true);
