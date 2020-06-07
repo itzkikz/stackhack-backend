@@ -1,4 +1,4 @@
-const eventModel = require("../Models/event");
+const eventModel = require("../models/event");
 const formidable = require("formidable");
 const validator = require("validator");
 var fs = require("fs");

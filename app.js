@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
-const eventRoutes = require("./Routes/event");
+const eventRoutes = require("./routes/event");
 
 const app = express();
 const port = 4001;
